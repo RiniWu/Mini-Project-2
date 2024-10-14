@@ -42,9 +42,21 @@ Kelas : Sistem Informasi B 2024
 
    **Jika Anda memilih angka "1"**, maka Anda bisa melakukan 'tambahan peminjaman' dengan kode baris dan Input sebagai berikut :
    ![Screenshot 2024-10-14 221851](https://github.com/user-attachments/assets/f255c922-5119-4b76-9c21-04ce57f93a36)
+   **Penambahan pinjaman berhasil**, kode baris dan input dibawah ini menggunakan 'def' dan juga Looping 
    ![Screenshot 2024-10-14 214738](https://github.com/user-attachments/assets/54830673-10f2-4962-8d9d-6745b573f828)
    **Output**
    ![Screenshot 2024-10-14 214753](https://github.com/user-attachments/assets/70cfa28b-75ab-47c5-8bd1-031a7aab25cd)
+   Setelah itu, akan ada pilihan "Apakah anda ingin melanjutkan tambahan pinjaman atau tidak?, maka akan menampilkan kembali Inputan nama dan jumlah pinjaman, seperti dibawah ini :
+   ![Screenshot 2024-10-14 215039](https://github.com/user-attachments/assets/663d2baf-fb89-4399-8ba3-e26f63224ba9)
+   **Output : Jika 'ya'**
+   ![Screenshot 2024-10-14 215116](https://github.com/user-attachments/assets/e5be2ee5-7029-4aaf-833d-7e01e0944d7d)
+   **Output ; Jika 'tidak'**, maka otomatis akan kembali pada =Menu Admin=
+   ![Screenshot 2024-10-14 215132](https://github.com/user-attachments/assets/55db44b2-1ee1-438d-8c22-87a6280e5e9f)
+
+
+
+   
+   
 
 
 
