@@ -97,7 +97,8 @@ Kelas : Sistem Informasi B 2024
    ![Screenshot 2024-10-15 002340](https://github.com/user-attachments/assets/fb484197-872a-4065-a2f3-75aac9399928)
 
    **Jika Anda memilih angka "1"**, maka Anda bisa melakukan 'transaksi peminjaman' dengan kode baris dan Input sebagai berikut :
-   
+   ![Screenshot 2024-10-15 014156](https://github.com/user-attachments/assets/8434ac2f-fe74-4e13-a6f2-f8a97715c2d8)
+
 
    
 
