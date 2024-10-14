@@ -17,11 +17,11 @@ Kelas : Sistem Informasi B 2024
    ![Screenshot 2024-10-14 200025](https://github.com/user-attachments/assets/f645de89-c200-4044-91cb-2d398a8bce71)
    ![Screenshot 2024-10-14 200036](https://github.com/user-attachments/assets/676b2044-8646-40cf-92c2-21159d76df6f)
 
-   **Output : tabel**
+   **Output :**
    
    ![Screenshot 2024-10-14 200116](https://github.com/user-attachments/assets/426ca254-d292-47c5-9837-7da6fac15b54)
 
-3. Selanjutnya, ada Fungsi Login yang dimana dalam Login ini Anda terlebih dahulu menginput nama Anda lalu akan diberikan pilihan fitur antara 'admin' dan 'peminjamm', berikut kode baris keseluruhan Login :
+2. Selanjutnya, ada Fungsi Login yang dimana dalam Login ini Anda terlebih dahulu menginput nama Anda lalu akan diberikan pilihan fitur antara 'admin' dan 'peminjamm', berikut kode baris keseluruhan Login :
    ![Screenshot 2024-10-14 200344](https://github.com/user-attachments/assets/06324a96-617e-45e4-8c91-d1e730e10d98)
    **Kode baris dan Input**, jika anda memilih angka "1" yaitu 'admin' :
    ![Screenshot 2024-10-14 204835](https://github.com/user-attachments/assets/ef922d03-7f9b-43d5-93a1-87d50b941ad0)
@@ -34,9 +34,10 @@ Kelas : Sistem Informasi B 2024
    **Kode baris dan Input** Jika anda memasukkan angka yang tidak ada dalam pilihan :
    ![Screenshot 2024-10-14 204853](https://github.com/user-attachments/assets/c2f63b63-0d39-4b09-9201-0a4138f548f7)
    **Output**
+   
    ![Screenshot 2024-10-14 205028](https://github.com/user-attachments/assets/06c9d1f9-5005-4408-9b4b-781fb157c275)
 
-4. Berikutnya, jika Anda masuk pada Laman 'admin', berikut ada kode baris dan Input keseluruhan dari Fitur 'admin'. Pada Fitur admin Anda akan ditampilkan =Menu Admin= dan Anda bisa melakukan Inputan sesuai keinginan Anda sebagai 'admin' :
+3. Berikutnya, jika Anda masuk pada Laman 'admin', berikut ada kode baris dan Input keseluruhan dari Fitur 'admin'. Pada Fitur admin Anda akan ditampilkan =Menu Admin= dan Anda bisa melakukan Inputan sesuai keinginan Anda sebagai 'admin' :
     ![Screenshot 2024-10-14 211624](https://github.com/user-attachments/assets/4640b949-2a51-411c-a895-02b4ce2a7327)
    **Output =Menu Admin=**
    ![Screenshot 2024-10-14 213956](https://github.com/user-attachments/assets/a190f5e2-7679-4f49-a9db-0c3ad82184e0)
