@@ -61,6 +61,8 @@ Kelas : Sistem Informasi B 2024
    ![Screenshot 2024-10-14 215644](https://github.com/user-attachments/assets/e698ea7d-9adc-4861-a0b6-0514d381396e)
 
     **Jika Anda memilih angka "3"**, maka Anda bisa melakukan 'Update Pinjaman' dengan kode baris dan Input sebagai berikut :
+   ![Screenshot 2024-10-14 221906](https://github.com/user-attachments/assets/1592e657-8d0c-4764-a8a2-cf9d5fe16f16)
+
    ![Screenshot 2024-10-14 220230](https://github.com/user-attachments/assets/b87649d4-6cdc-4080-a527-f5ed0b64d40f)
    **Output : Jika update berhasil**, maka secara otomatis update pinjaman berubah contohnya output pada nasabah 'Rafi' dibawah ini:
    
@@ -72,6 +74,8 @@ Kelas : Sistem Informasi B 2024
    ![Screenshot 2024-10-14 220334](https://github.com/user-attachments/assets/3c0d1d35-b484-4dd8-b0f0-2f935a2a7719)
 
    **Jika Anda memilih angka "4"**, maka Anda bisa melakukan 'Hapus Pinjaman' dengan kode baris dan Input sebagai berikut :
+   ![Screenshot 2024-10-14 221920](https://github.com/user-attachments/assets/1a10eb07-fe44-477a-8a60-2c181fe76d45)
+
    ![Screenshot 2024-10-14 220857](https://github.com/user-attachments/assets/3c8766c0-64c4-4b8d-97bb-cb77250f40ba)
    **Output : Jika berhasil**, maka nama yang disebutkan akan otomatis terhapus juga di tabel, contohnya output nama 'Rafi' dibawah ini :
    ![Screenshot 2024-10-14 220915](https://github.com/user-attachments/assets/f4b192d4-3f0d-40df-8c24-d48dfcbaf5e0)
