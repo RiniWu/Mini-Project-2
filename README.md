@@ -91,7 +91,18 @@ Kelas : Sistem Informasi B 2024
    **Output : Jika 'Keluar**
    ![Screenshot 2024-10-14 221736](https://github.com/user-attachments/assets/95468394-035b-4732-bdd4-d4e95884116a)
 
-4.  Berikutnya, jika Anda masuk pada Laman 'peminjam', berikut adalah kode baris dan Input keseluruhan dari Fitur 'peminjaman'. Pada Fitur Peminjaman Anda akan ditampilkan =Menu Pinjaman= dan Anda bisa melakukan Inputan sesuai keinginan Anda sebagai 'peminjam' :
+4. Berikutnya, jika Anda masuk pada Laman 'peminjam', berikut adalah kode baris dan Input keseluruhan dari Fitur 'peminjaman'. Pada Fitur Peminjaman Anda akan ditampilkan =Menu Pinjaman= dan Anda bisa melakukan Inputan sesuai keinginan Anda sebagai 'peminjam' :
+   ![Screenshot 2024-10-15 002249](https://github.com/user-attachments/assets/8e79896b-d2d9-4d3e-83c4-6038192b0e0d)
+   **Output : =Menu Pinjaman=**
+   ![Screenshot 2024-10-15 002340](https://github.com/user-attachments/assets/fb484197-872a-4065-a2f3-75aac9399928)
+
+   **Jika Anda memilih angka "1"**, maka Anda bisa melakukan 'transaksi peminjaman' dengan kode baris dan Input sebagai berikut :
+   
+
+   
+
+   
+
 
    
 
