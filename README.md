@@ -128,7 +128,8 @@ Kelas : Sistem Informasi B 2024
 
    **Jika Anda memilih angka "1"**, maka Anda bisa melakukan 'transaksi peminjaman' dengan kode baris dan Input sebagai berikut :
 
-   ![Screenshot 2024-10-15 014156](https://github.com/user-attachments/assets/8434ac2f-fe74-4e13-a6f2-f8a97715c2d8)
+   ![Screenshot 2024-10-15 022209](https://github.com/user-attachments/assets/5aa654ad-ebec-466b-89ad-e67b0319f50e)
+
 
    Selanjutnya, disini akan ada keterangan "Jika jumlah > 100.000.000, maka program akan berhenti" karena ada syarat tertentu yakni tidak boleh meminjam > 100.000.000, outputnya :
    
@@ -153,6 +154,19 @@ Kelas : Sistem Informasi B 2024
    **Output : Jika 'tidak'**
 
    ![Screenshot 2024-10-15 005915](https://github.com/user-attachments/assets/bf1571e4-c112-4893-9d34-5bdbd8285162)
+
+   **Jika Anda memilih angka "2"**, Anda akan memilih antara 'Kembali/Keluar' sebagai berikut :
+   ![Screenshot 2024-10-15 022449](https://github.com/user-attachments/assets/6e5399db-71cc-44d4-afb7-f750249ec9f6)
+
+   **Output : Jika 'Kembali'**
+
+   ![Screenshot 2024-10-15 001222](https://github.com/user-attachments/assets/b876b84e-d320-4366-b74d-ad54a8260298)
+
+   **Output : Jika 'Keluar**
+   
+   ![Screenshot 2024-10-15 022617](https://github.com/user-attachments/assets/da01462c-c84d-40af-97a5-acdf32217742)
+
+   
 
 
    
