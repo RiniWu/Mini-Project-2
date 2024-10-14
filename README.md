@@ -96,7 +96,7 @@ Kelas : Sistem Informasi B 2024
    **Output : Jika gagal**, biasanya gagal jika nama peminjam memang tidak ada sebelumnya, seperti output dibawah ini :
    ![Screenshot 2024-10-14 220937](https://github.com/user-attachments/assets/be7ecf52-1529-44eb-9e16-460491b95bd3)
 
-   **Jika Anda memilih angka "5"**, maka Anda bisa melakukan 'Hapus Pinjaman' dengan kode baris dan Input sebagai berikut :
+   **Jika Anda memilih angka "5"**, Anda akan memilih antara 'Kembali/Keluar' sebagai berikut :
    ![Screenshot 2024-10-14 221500](https://github.com/user-attachments/assets/22a2b975-2bdf-472b-b81c-54cee7d89b87)
    **Output : Jika 'Kembali'**
    ![Screenshot 2024-10-15 001222](https://github.com/user-attachments/assets/b876b84e-d320-4366-b74d-ad54a8260298)
@@ -113,7 +113,7 @@ Kelas : Sistem Informasi B 2024
    **Jika Anda memilih angka "1"**, maka Anda bisa melakukan 'transaksi peminjaman' dengan kode baris dan Input sebagai berikut :
    ![Screenshot 2024-10-15 014156](https://github.com/user-attachments/assets/8434ac2f-fe74-4e13-a6f2-f8a97715c2d8)
 
-   Selanjutnya, disini akan ada pilihan "Jika jumlah > 100.000.000, maka program akan berhenti" karena ada syarat tertentu yakni tidak boleh meminjam > 100.000.000, outputnya :
+   Selanjutnya, disini akan ada keterangan "Jika jumlah > 100.000.000, maka program akan berhenti" karena ada syarat tertentu yakni tidak boleh meminjam > 100.000.000, outputnya :
    
    **Output : Jika pinjaman > 100.000.000**
    ![Screenshot 2024-10-15 003019](https://github.com/user-attachments/assets/88db7b3f-d612-45c6-9522-e0df4deac693)
@@ -122,6 +122,17 @@ Kelas : Sistem Informasi B 2024
    ![Screenshot 2024-10-15 003159](https://github.com/user-attachments/assets/deabab88-44c7-4a62-aea2-94ece985aade)
    **Output di admin**
    ![Screenshot 2024-10-15 003213](https://github.com/user-attachments/assets/66d415e0-31fb-4336-ab89-f7dcf8450240)
+
+   Lalu, setelah mendapat pinjaman Anda akan memilih antara 'melanjutkan transaksi/tidak', contoh output sebagai berikut :
+   **Output : Jika 'ya'**, akan kembali ke 'transaksi pinjaman'
+   ![Screenshot 2024-10-15 003344](https://github.com/user-attachments/assets/9216037f-5eae-47d2-943c-b5dcf0ce26e6)
+
+   **Output : Jika 'tidak'**
+   ![Screenshot 2024-10-15 005915](https://github.com/user-attachments/assets/bf1571e4-c112-4893-9d34-5bdbd8285162)
+
+
+   
+   
 
 
 
