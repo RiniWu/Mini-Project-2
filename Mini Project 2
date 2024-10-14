@@ -1,0 +1,172 @@
+from prettytable import PrettyTable
+
+pinjaman_data = []
+tabel = PrettyTable()
+tabel.field_names = ["Nama", "Jumlah Pinjaman"]
+
+# Fitur untuk menambah data pinjaman
+def data_pinjaman(nama, jumlah_pinjaman) :
+    pinjaman_data.append({"nama" : nama, "jumlah" : jumlah_pinjaman})
+    tabel.add_row([nama, jumlah_pinjaman])
+
+# Data Peminjaman awal
+data_pinjaman("Ravina Eka", "5000000")
+data_pinjaman("Zahra Aurellya", "15000000")
+data_pinjaman("Laksamana", "65000000")
+data_pinjaman("Ari Andromeda", "25000000")
+data_pinjaman("Dwi Jaya", "37000000")
+data_pinjaman("Aji Putra", "1000000")
+data_pinjaman("Ramadhani", "1000000")
+
+# Fitur Login
+def login() :
+    print("=" * 6 + "Login" + "=" * 6)
+    while True:
+        nama = input("Masukkan nama anda : ")
+        print("[1]. Admin")
+        print("[2]. Peminjam")
+        pilihan = input("Silahkan pilih mode login anda: ")
+        if pilihan == "1" :
+            print(f"Selamat datang, {nama}! Anda login sebagai admin ^-^")
+            admin()
+            break
+        elif pilihan == "2" :
+            print(f"Selamat datang, {nama}! Anda login sebagai peminjam ^-^")
+            peminjam()
+            break
+        else :
+            print("Login tidak tersedia.")
+
+# Fitur untuk admin
+def admin() :
+    while True:
+        print("=" * 6 + "Menu Admin" + "=" * 6)
+        print("1. Tambah Pinjaman")
+        print("2. Lihat Pinjaman")
+        print("3. Update Pinjaman")
+        print("4. Hapus Pinjaman")
+        print("5. Keluar")
+        pilihan = input("Silahkan pilih Fitur yang Anda inginkan : ")
+        if pilihan == "1" :
+            tambah_pinjaman()
+        elif pilihan == "2" :
+            lihat_pinjaman()
+        elif pilihan == "3" :
+            update_pinjaman()
+        elif pilihan == "4" :
+            hapus_pinjaman()
+        elif pilihan == "5" :
+            fitur_login = input("Apakah Anda ingin Keluar atau Kembali ke fitur login?\n (Keluar/Kembali) : ")
+            if fitur_login == "Keluar" :
+                print("Terimakasih ^-^. Sammpai jumpa lagi!! ")
+                break
+            elif fitur_login == "Kembali" :
+                login()
+                break
+            else : 
+                print("Pilihan error, coba lagi yahh ^-^.")
+        else :
+            print("Pilihan tidak valid, coba lagi yah ^-^.")
+
+# Fitur admin untuk menambah pinjaman
+def tambah_pinjaman() :
+    while True :
+        print("=" * 6 + "Tambah Pinjaman" + "=" * 6)
+        nama = input("Nama Peminjam: ")
+        jumlah = input("Jumlah Pinjaman: ")
+        data_pinjaman(nama, jumlah)
+        print("Pinjaman berhasil ditambahkan.")
+        pilihan = input("Apakah Anda ingin menambahkan pinjaman lagi?\n (ya/tidak) : ")
+        if pilihan == "tidak" :
+            break
+
+# Fitur admin untuk melihat pinjaman
+def lihat_pinjaman() :
+    print(tabel)
+
+# Fitur admin untuk update pinjaman
+def update_pinjaman() :
+        print("=" * 6 + "Update Pinjaman" + "=" * 6)
+        nama = input("Masukkan nama peminjam yang akan di update: ")
+        for pinjaman in pinjaman_data:
+            if pinjaman["nama"] == nama :
+                jumlah_baru = input("Jumlah pinjaman yang baru :")
+                pinjaman["jumlah"] = jumlah_baru
+                # Update tabel
+                tabel.clear_rows()
+                for p in pinjaman_data:
+                    tabel.add_row([p['nama'], p['jumlah']])
+                print("Pinjaman berhasil di update.") 
+                return
+        print("Maaf Nama peminjam tidak ditemukan")
+
+# Fitur admin untuk hapus pinjaman
+def hapus_pinjaman():
+    print("=" * 6 + "Hapus Pinjaman" + "=" * 6)
+    nama = input("Masukkan nama peminjam yang akan dihapus: ")
+    global pinjaman_data
+    awal_len = len(pinjaman_data)
+    pinjaman_data = [pinjaman for pinjaman in pinjaman_data if pinjaman["nama"] != nama]
+    tabel.clear_rows()
+    for p in pinjaman_data:
+        tabel.add_row([p['nama'], p['jumlah']])
+    if len(pinjaman_data) < awal_len:
+        print("Pinjaman berhasil dihapus.")
+    else:
+        print("Nama peminjam tidak ditemukan.")
+
+# Fitur untuk peminjam
+def peminjam():
+    while True :
+        print("=" * 6 + "Menu Pinjaman" + "=" * 6)
+        print("1. Transaksi pinjaman")
+        print("2. Keluar")
+        pilihan = input("Silahkan pilih fitur yang diinginkan: ")
+        if pilihan == "1" :
+            transaksi_pinjaman()
+            break
+        elif pilihan == "2" :
+            fitur_login = input("Apakah anda ingin Keluar atau Kembali?\n (Keluar/Kembali) : ")
+            if fitur_login == "Keluar" :
+                print("Terimakasih ^-^. Sammpai jumpa lagi!! ")
+                break
+            elif fitur_login == "Kembali" :
+                login()
+                break
+            else : 
+                print("Pilihan error, coba lagi yahh ^-^.")
+        else :
+            print("Pilihan tidak valid, coba lagi yah ^-^.")
+
+# Fitur untuk transaksi pinjaman
+def transaksi_pinjaman():
+    while True :
+        print("=" * 6 + "Transaksi Pinjaman" + "=" * 6)
+        nama = input("Nama Peminjaman: ")
+        jumlah = int(input("Jumlah Pinjaman: "))
+        data_pinjaman(nama, jumlah)
+        if jumlah > 100000000:
+            print("Julah pinjaman Anda lebih dari batas maksimal pinjaman yaitu 100.000.000\n Sekian, terimakasih ^-^")
+            return
+        elif jumlah  < 100000000:
+            print(f"Transaksi pinjaman untuk {nama} sebesar {jumlah} berhasil dilakukan. Selamat!!!")
+            pilihan = input("Apakah Anda ingin melanjutkan transaksi?\n (ya/tidak) : ")
+            if pilihan == "ya" :
+                transaksi_pinjaman()
+                break
+            elif pilihan == "tidak" :
+                fitur_login = input("Apakah anda ingin Keluar atau Kembali?\n (Keluar/Kembali) : ")
+                if fitur_login == "Keluar" :
+                    print("Terimakasih ^-^. Sammpai jumpa lagi!! ")
+                    break
+                elif fitur_login == "Kembali" :
+                    login()
+                    break
+                else : 
+                    print("Pilihan error, coba lagi yahh ^-^.")
+                    break
+            else:
+                print("Pilihan error, coba lagi yahh ^-^.")
+        else:
+            print("Maaf transaksi gagal.")
+login()
