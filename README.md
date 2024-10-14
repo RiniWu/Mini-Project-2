@@ -37,7 +37,7 @@ Kelas : Sistem Informasi B 2024
    
    ![Screenshot 2024-10-14 205028](https://github.com/user-attachments/assets/06c9d1f9-5005-4408-9b4b-781fb157c275)
 
-3. Berikutnya, jika Anda masuk pada Laman 'admin', berikut ada kode baris dan Input keseluruhan dari Fitur 'admin'. Pada Fitur admin Anda akan ditampilkan =Menu Admin= dan Anda bisa melakukan Inputan sesuai keinginan Anda sebagai 'admin' :
+3. Berikutnya, jika Anda masuk pada Laman 'admin', berikut adaalah kode baris dan Input keseluruhan dari Fitur 'admin'. Pada Fitur admin Anda akan ditampilkan =Menu Admin= dan Anda bisa melakukan Inputan sesuai keinginan Anda sebagai 'admin' :
     ![Screenshot 2024-10-14 211624](https://github.com/user-attachments/assets/4640b949-2a51-411c-a895-02b4ce2a7327)
    **Output =Menu Admin=**
    ![Screenshot 2024-10-14 213956](https://github.com/user-attachments/assets/a190f5e2-7679-4f49-a9db-0c3ad82184e0)
@@ -91,7 +91,7 @@ Kelas : Sistem Informasi B 2024
    **Output : Jika 'Keluar**
    ![Screenshot 2024-10-14 221736](https://github.com/user-attachments/assets/95468394-035b-4732-bdd4-d4e95884116a)
 
-   
+4.  Berikutnya, jika Anda masuk pada Laman 'peminjam', berikut adalah kode baris dan Input keseluruhan dari Fitur 'peminjaman'. Pada Fitur Peminjaman Anda akan ditampilkan =Menu Pinjaman= dan Anda bisa melakukan Inputan sesuai keinginan Anda sebagai 'peminjam' :
 
    
 
