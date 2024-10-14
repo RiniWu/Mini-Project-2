@@ -18,9 +18,10 @@ Kelas : Sistem Informasi B 2024
    ![Screenshot 2024-10-14 200036](https://github.com/user-attachments/assets/676b2044-8646-40cf-92c2-21159d76df6f)
 
    **Output : tabel**
+   
    ![Screenshot 2024-10-14 200116](https://github.com/user-attachments/assets/426ca254-d292-47c5-9837-7da6fac15b54)
 
-2. Selanjutnya, ada Fungsi Login yang dimana dalam Login ini Anda terlebih dahulu menginput nama Anda lalu akan diberikan pilihan fitur antara 'admin' dan 'peminjamm', berikut kode baris keseluruhan Login :
+3. Selanjutnya, ada Fungsi Login yang dimana dalam Login ini Anda terlebih dahulu menginput nama Anda lalu akan diberikan pilihan fitur antara 'admin' dan 'peminjamm', berikut kode baris keseluruhan Login :
    ![Screenshot 2024-10-14 200344](https://github.com/user-attachments/assets/06324a96-617e-45e4-8c91-d1e730e10d98)
    **Kode baris dan Input**, jika anda memilih angka "1" yaitu 'admin' :
    ![Screenshot 2024-10-14 204835](https://github.com/user-attachments/assets/ef922d03-7f9b-43d5-93a1-87d50b941ad0)
@@ -35,7 +36,7 @@ Kelas : Sistem Informasi B 2024
    **Output**
    ![Screenshot 2024-10-14 205028](https://github.com/user-attachments/assets/06c9d1f9-5005-4408-9b4b-781fb157c275)
 
-3. Berikutnya, jika Anda masuk pada Laman 'admin', berikut ada kode baris dan Input keseluruhan dari Fitur 'admin'. Pada Fitur admin Anda akan ditampilkan =Menu Admin= dan Anda bisa melakukan Inputan sesuai keinginan Anda sebagai 'admin' :
+4. Berikutnya, jika Anda masuk pada Laman 'admin', berikut ada kode baris dan Input keseluruhan dari Fitur 'admin'. Pada Fitur admin Anda akan ditampilkan =Menu Admin= dan Anda bisa melakukan Inputan sesuai keinginan Anda sebagai 'admin' :
     ![Screenshot 2024-10-14 211624](https://github.com/user-attachments/assets/4640b949-2a51-411c-a895-02b4ce2a7327)
    **Output =Menu Admin=**
    ![Screenshot 2024-10-14 213956](https://github.com/user-attachments/assets/a190f5e2-7679-4f49-a9db-0c3ad82184e0)
@@ -55,16 +56,31 @@ Kelas : Sistem Informasi B 2024
 
    **Jika Anda memilih angka "2"**, maka Anda bisa melakukan 'Lihat Pinjaman' dengan kode baris dan Input sebagai berikut :
    ![Screenshot 2024-10-14 215629](https://github.com/user-attachments/assets/b488f31e-8e14-48ce-8d01-64290d17ca98)
-   **Output :**, pada penambahan pinjaman yang dilakukan sebelumnya secara otomatis akan masuk ke dalam tabel, seperti dibawah ini :
+   **Output :**, pada penambahan pinjaman yang dilakukan sebelumnya secara otomatis akan masuk ke dalam tabel, seperti output dibawah ini :
    ![Screenshot 2024-10-14 215644](https://github.com/user-attachments/assets/e698ea7d-9adc-4861-a0b6-0514d381396e)
 
     **Jika Anda memilih angka "3"**, maka Anda bisa melakukan 'Update Pinjaman' dengan kode baris dan Input sebagai berikut :
    ![Screenshot 2024-10-14 220230](https://github.com/user-attachments/assets/b87649d4-6cdc-4080-a527-f5ed0b64d40f)
-   **Output : Jika update berhasil**, maka secara otomatis update pinjaman berubah contohnya pada nasabah 'Rafi' dibawah ini:
+   **Output : Jika update berhasil**, maka secara otomatis update pinjaman berubah contohnya output pada nasabah 'Rafi' dibawah ini:
+   
    ![Screenshot 2024-10-14 220303](https://github.com/user-attachments/assets/2375b691-f4c1-40cb-99f3-34bda0063675)
    ![Screenshot 2024-10-14 220325](https://github.com/user-attachments/assets/3deac43c-d609-4efd-b7d7-c2d1b293a9e4)
-   **Output : Jika update gagal**, ini terjadi karena nama yang di update belum ada sebelumnya didalam tabel
+   **Output : Jika update gagal**, ini terjadi karena nama yang di update belum ada sebelumnya didalam tabel, seperti output dibawah ini:
+   
    ![Screenshot 2024-10-14 220334](https://github.com/user-attachments/assets/3c0d1d35-b484-4dd8-b0f0-2f935a2a7719)
+
+   **Jika Anda memilih angka "4"**, maka Anda bisa melakukan 'Hapus Pinjaman' dengan kode baris dan Input sebagai berikut :
+   ![Screenshot 2024-10-14 220857](https://github.com/user-attachments/assets/3c8766c0-64c4-4b8d-97bb-cb77250f40ba)
+   **Output : Jika berhasil**, maka nama yang disebutkan akan otomatis terhapus juga di tabel, contohnya output nama 'Rafi' dibawah ini :
+   ![Screenshot 2024-10-14 220915](https://github.com/user-attachments/assets/f4b192d4-3f0d-40df-8c24-d48dfcbaf5e0)
+   ![Screenshot 2024-10-14 220925](https://github.com/user-attachments/assets/40498c24-ddeb-4813-83ec-d2b91fc379a1)
+   **Output : Jika gagal**, biasanya gagal jika nama peminjam memang tidak ada sebelumnya, seperti output dibawah ini :
+   ![Screenshot 2024-10-14 220937](https://github.com/user-attachments/assets/be7ecf52-1529-44eb-9e16-460491b95bd3)
+
+   
+
+
+
 
 
 
