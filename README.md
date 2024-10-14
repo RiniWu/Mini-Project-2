@@ -53,6 +53,26 @@ Kelas : Sistem Informasi B 2024
    **Output ; Jika 'tidak'**, maka otomatis akan kembali pada =Menu Admin=
    ![Screenshot 2024-10-14 215132](https://github.com/user-attachments/assets/55db44b2-1ee1-438d-8c22-87a6280e5e9f)
 
+   **Jika Anda memilih angka "2"**, maka Anda bisa melakukan 'Lihat Pinjaman' dengan kode baris dan Input sebagai berikut :
+   ![Screenshot 2024-10-14 215629](https://github.com/user-attachments/assets/b488f31e-8e14-48ce-8d01-64290d17ca98)
+   **Output :**, pada penambahan pinjaman yang dilakukan sebelumnya secara otomatis akan masuk ke dalam tabel, seperti dibawah ini :
+   ![Screenshot 2024-10-14 215644](https://github.com/user-attachments/assets/e698ea7d-9adc-4861-a0b6-0514d381396e)
+
+    **Jika Anda memilih angka "3"**, maka Anda bisa melakukan 'Update Pinjaman' dengan kode baris dan Input sebagai berikut :
+   ![Screenshot 2024-10-14 220230](https://github.com/user-attachments/assets/b87649d4-6cdc-4080-a527-f5ed0b64d40f)
+   **Output : Jika update berhasil**, maka secara otomatis update pinjaman berubah contohnya pada nasabah 'Rafi' dibawah ini:
+   ![Screenshot 2024-10-14 220303](https://github.com/user-attachments/assets/2375b691-f4c1-40cb-99f3-34bda0063675)
+   ![Screenshot 2024-10-14 220325](https://github.com/user-attachments/assets/3deac43c-d609-4efd-b7d7-c2d1b293a9e4)
+   **Output : Jika update gagal**, ini terjadi karena nama yang di update belum ada sebelumnya didalam tabel
+   ![Screenshot 2024-10-14 220334](https://github.com/user-attachments/assets/3c0d1d35-b484-4dd8-b0f0-2f935a2a7719)
+
+
+
+   
+
+
+
+
 
 
    
