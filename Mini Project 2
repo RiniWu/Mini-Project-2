@@ -155,10 +155,19 @@ def transaksi_pinjaman():
                 transaksi_pinjaman()
                 break
             elif pilihan == "tidak" :
-                print("Terimakasih ^-^. Sammpai jumpa lagi!! ")
-                break
+                fitur_login = input("Apakah anda ingin Keluar atau Kembali?\n (Keluar/Kembali) : ")
+                if fitur_login == "Keluar" :
+                    print("Terimakasih ^-^. Sammpai jumpa lagi!! ")
+                    break
+                elif fitur_login == "Kembali" :
+                    login()
+                    break
+                else : 
+                    print("Pilihan error, coba lagi yahh ^-^.")
+                    break
             else:
                 print("Pilihan error, coba lagi yahh ^-^.")
+                break
         else:
             print("Maaf transaksi gagal.")
 login()
