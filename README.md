@@ -29,12 +29,14 @@ Kelas : Sistem Informasi B 2024
    ![Screenshot 2024-10-14 204835](https://github.com/user-attachments/assets/ef922d03-7f9b-43d5-93a1-87d50b941ad0)
 
    **Output**
+   
    ![Screenshot 2024-10-14 204950](https://github.com/user-attachments/assets/83f80693-86a5-44f0-9c6d-cb876a18075d)
 
    **Kode baris dan Input**, jika anda memilih angka "2" yaitu 'peminjam' :
    ![Screenshot 2024-10-14 204846](https://github.com/user-attachments/assets/eb5cd895-8091-4aa1-8205-708ae0e28c15)
 
    **Output**
+   
    ![Screenshot 2024-10-14 205005](https://github.com/user-attachments/assets/e76b7794-b809-4cc8-910f-4cfd763be20f)
 
    **Kode baris dan Input** Jika anda memasukkan angka yang tidak ada dalam pilihan :
@@ -44,7 +46,7 @@ Kelas : Sistem Informasi B 2024
    
    ![Screenshot 2024-10-14 205028](https://github.com/user-attachments/assets/06c9d1f9-5005-4408-9b4b-781fb157c275)
 
-4. Berikutnya, jika Anda masuk pada Laman 'admin', berikut adaalah kode baris dan Input keseluruhan dari Fitur 'admin'. Pada Fitur admin Anda akan ditampilkan =Menu Admin= dan Anda bisa melakukan Inputan sesuai keinginan Anda sebagai 'admin' :
+5. Berikutnya, jika Anda masuk pada Laman 'admin', berikut adaalah kode baris dan Input keseluruhan dari Fitur 'admin'. Pada Fitur admin Anda akan ditampilkan =Menu Admin= dan Anda bisa melakukan Inputan sesuai keinginan Anda sebagai 'admin' :
    ![Screenshot 2024-10-14 211624](https://github.com/user-attachments/assets/4640b949-2a51-411c-a895-02b4ce2a7327)
    **Output =Menu Admin=**
    ![Screenshot 2024-10-14 213956](https://github.com/user-attachments/assets/a190f5e2-7679-4f49-a9db-0c3ad82184e0)
