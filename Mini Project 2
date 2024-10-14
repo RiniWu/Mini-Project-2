@@ -146,7 +146,7 @@ def transaksi_pinjaman():
         jumlah = int(input("Jumlah Pinjaman: "))
         data_pinjaman(nama, jumlah)
         if jumlah > 100000000:
-            print("Julah pinjaman Anda lebih dari batas maksimal pinjaman yaitu 100.000.000\n Sekian, terimakasih ^-^")
+            print("Jumlah pinjaman Anda lebih dari batas maksimal pinjaman yaitu 100.000.000\n Sekian, terimakasih ^-^")
             return
         elif jumlah  < 100000000:
             print(f"Transaksi pinjaman untuk {nama} sebesar {jumlah} berhasil dilakukan. Selamat!!!")
@@ -155,16 +155,8 @@ def transaksi_pinjaman():
                 transaksi_pinjaman()
                 break
             elif pilihan == "tidak" :
-                fitur_login = input("Apakah anda ingin Keluar atau Kembali?\n (Keluar/Kembali) : ")
-                if fitur_login == "Keluar" :
-                    print("Terimakasih ^-^. Sammpai jumpa lagi!! ")
-                    break
-                elif fitur_login == "Kembali" :
-                    login()
-                    break
-                else : 
-                    print("Pilihan error, coba lagi yahh ^-^.")
-                    break
+                print("Terimakasih ^-^. Sammpai jumpa lagi!! ")
+                break
             else:
                 print("Pilihan error, coba lagi yahh ^-^.")
         else:
