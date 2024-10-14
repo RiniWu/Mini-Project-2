@@ -77,6 +77,15 @@ Kelas : Sistem Informasi B 2024
    **Output : Jika gagal**, biasanya gagal jika nama peminjam memang tidak ada sebelumnya, seperti output dibawah ini :
    ![Screenshot 2024-10-14 220937](https://github.com/user-attachments/assets/be7ecf52-1529-44eb-9e16-460491b95bd3)
 
+   **Jika Anda memilih angka "5"**, maka Anda bisa melakukan 'Hapus Pinjaman' dengan kode baris dan Input sebagai berikut :
+   ![Screenshot 2024-10-14 221500](https://github.com/user-attachments/assets/22a2b975-2bdf-472b-b81c-54cee7d89b87)
+   **Output : Jika 'Kembali'**
+
+   **Output : Jika 'Keluar**
+   ![Screenshot 2024-10-14 221736](https://github.com/user-attachments/assets/95468394-035b-4732-bdd4-d4e95884116a)
+
+   
+
    
 
 
