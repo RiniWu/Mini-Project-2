@@ -66,6 +66,7 @@ Kelas : Sistem Informasi B 2024
    
    ![Screenshot 2024-10-14 220303](https://github.com/user-attachments/assets/2375b691-f4c1-40cb-99f3-34bda0063675)
    ![Screenshot 2024-10-14 220325](https://github.com/user-attachments/assets/3deac43c-d609-4efd-b7d7-c2d1b293a9e4)
+
    **Output : Jika update gagal**, ini terjadi karena nama yang di update belum ada sebelumnya didalam tabel, seperti output dibawah ini:
    
    ![Screenshot 2024-10-14 220334](https://github.com/user-attachments/assets/3c0d1d35-b484-4dd8-b0f0-2f935a2a7719)
@@ -75,6 +76,7 @@ Kelas : Sistem Informasi B 2024
    **Output : Jika berhasil**, maka nama yang disebutkan akan otomatis terhapus juga di tabel, contohnya output nama 'Rafi' dibawah ini :
    ![Screenshot 2024-10-14 220915](https://github.com/user-attachments/assets/f4b192d4-3f0d-40df-8c24-d48dfcbaf5e0)
    ![Screenshot 2024-10-14 220925](https://github.com/user-attachments/assets/40498c24-ddeb-4813-83ec-d2b91fc379a1)
+
    **Output : Jika gagal**, biasanya gagal jika nama peminjam memang tidak ada sebelumnya, seperti output dibawah ini :
    ![Screenshot 2024-10-14 220937](https://github.com/user-attachments/assets/be7ecf52-1529-44eb-9e16-460491b95bd3)
 
