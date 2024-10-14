@@ -7,6 +7,7 @@ NIM : 2409116048
 Kelas : Sistem Informasi B 2024
 
 **Flowchart**
+![Mini_Project_2 fix](https://github.com/user-attachments/assets/cca8ed0c-1262-4761-8780-547d9edb5f61)
 
 **Penjelasan :**
 1. **Memanggil Fungsi PrettyTable** yang akan menampilkan tabel yang terstruktur dan sudah rapi :
